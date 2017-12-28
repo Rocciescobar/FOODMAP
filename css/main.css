@@ -1,0 +1,70 @@
+body {
+  background-color: #2b2b2b;
+}
+
+/* Estilos para tipografía */
+.title-color {
+  color:  #cb843e;
+}
+
+/* Estilos para separador */
+hr.separator {
+  border-width: 2.5px;
+  overflow: visible;  
+  width: 90%;
+}
+
+hr.separator:before {
+  background: #2b2b2b;
+  content: '\f096';
+  color: #eee;
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -0.7em;  
+}
+
+hr.separator:after {
+  background: #2b2b2b;
+  content: '\f096';
+  color: #eee;
+  font-family: FontAwesome;
+  font-size: 2em;  
+  float: right;
+  position: relative;
+  top: -0.7em;  
+}
+
+/* Estilo para mapa */
+.main-map {
+  clear: both;
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.list-of-restaurants {
+  margin: 20px 10%;
+}
+
+/* Estilo para fotos */
+/*.img-food {
+  height: 100px;
+  margin: auto;
+  width: 200px;
+}*/
+
+
+.img-block {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-article {
+  background-color: #FFFFFF;
+  float: left;
+  margin: 1%;
+  width: 31%;
+}
