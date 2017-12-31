@@ -35,7 +35,7 @@ hr.separator:after {
   top: -0.7em;  
 }
 
-/* Estilo para mapa */
+/* Estilos para mapa */
 .main-map {
   clear: both;
   display: block;
@@ -44,27 +44,38 @@ hr.separator:after {
   width: 80%;
 }
 
+/* Estilos para fotos */
 .list-of-restaurants {
   margin: 20px 10%;
+  overflow: auto;
 }
 
-/* Estilo para fotos */
-/*.img-food {
-  height: 100px;
-  margin: auto;
-  width: 200px;
-}*/
-
-
-.img-block {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.grid-article {
-  background-color: #FFFFFF;
+.container-restaurant {
+  background-color: #fff;
   float: left;
   margin: 1%;
   width: 31%;
+}
+
+.container-img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.restaurant-img {  
+  max-width: 100%;
+  position: relative;
+}
+
+/* Estilos a Mouseover */
+img:hover {
+  filter: grayscale(70%);
+}
+
+.name-rest {
+  color: #ffffff; 
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
 }
