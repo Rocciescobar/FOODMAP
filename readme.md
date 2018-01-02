@@ -12,7 +12,7 @@ Crear una web-app que a través de un input pueda filtrar los restaurantes que s
 
 ## Flujo de la aplicación
 * Vista splash con duración de 2 segundos que redirecciona a la vista principal. 
-* En la vista principal se muestran todos los restaurantes "cerca" junto con el input para filtrar y elegir entre las siguientes opciones: Cevicheria, panaderia y variado.
+* En la vista principal se muestran todos los restaurantes "cerca" junto con el input para filtrar, elegir entre las siguientes opciones: **Cevicheria, panaderia y variado** y darle click al botón (lupa).
 * Al realizar la elección de un filtro, se muestran únicamente aquellos restaurantes que cumplan con la condición. 
 * Toda las imágenes tienen un evento mouseover y muestran el nombre del restaurante en letras blancas.
 * Al seleccionar alguno de los restaurantes, se muestra la información de este a través de un modal. 
